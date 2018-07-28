@@ -1,0 +1,88 @@
+body {
+  background-color: #FFF9F9;
+}
+
+.header {
+  background-color: #FF7777;
+  height: 56px;
+  width: 100%;
+}
+
+.header img {
+  text-align: center;
+}
+
+.top {
+  margin: 0 16px 80px;
+}
+
+.top-gif {
+  margin-top: 16px;
+}
+
+.top-gif img{
+  height: 320px;
+  width: 320px;
+}
+
+.top-message p{
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 2;
+}
+
+/* album */
+
+.album {
+  margin-bottom: 120px;
+}
+
+.album-title img{
+  text-align: center;
+  height: 136px;
+  width: 343px;
+}
+
+.album-contents {
+  width: 100%;
+}
+
+.album-contents img {
+  margin-bottom: 8px;
+  width: 100%;
+}
+
+/* message */
+
+.message-contents {
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.message-contents img {
+  width: 48px;
+  height: 48px;
+  align-self: flex-start;
+  margin-right: 8px;
+}
+
+.message-title {
+  margin-bottom: 40px;
+}
+
+.message-title img{
+  text-align: center;
+  height: 136px;
+  width: 343px;
+}
+
+.contents-comment {
+  flex-direction: row;
+  background-color: #FFF2F2;
+  padding: 24px;
+}
+
+.contents-comment p {
+  font-size: 14px;
+  line-height: 2;
+}
